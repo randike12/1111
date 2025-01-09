@@ -247,7 +247,7 @@ async def uptime(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 
 # Main function to set up the bot
 def main():
-    app = ApplicationBuilder().token("7924931025:AAHGZAXVbHDUpC4HQx3PS7ZuQW7gBlroY70").build()
+    app = ApplicationBuilder().token("7646987626:AAEu2odTmyDGyhh8m_r__rgBwFwDac0J2ck").build()
 
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandler("help", help_command))
